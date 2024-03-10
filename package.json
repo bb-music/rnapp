@@ -1,5 +1,6 @@
 {
-  "name": "rnapp",
+  "name": "bb-music-native",
+  "description": "哔哔音乐 React Native",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,6 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@bb-music/app": "^0.0.2",
     "react": "18.2.0",
     "react-native": "0.73.5"
   },
@@ -25,6 +27,7 @@
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
+    "eslint-config-prettier": "^9.1.0",
     "jest": "^29.6.3",
     "prettier": "2.8.8",
     "react-test-renderer": "18.2.0",
